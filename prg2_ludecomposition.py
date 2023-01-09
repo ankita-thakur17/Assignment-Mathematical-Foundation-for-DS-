@@ -37,8 +37,7 @@ print("Final Output Matrix")
 result=P.dot((L.dot(U)))
 print(result)
 print()
-#allclose()- check if solution is correct return boolean value
-print(np.allclose(L @ U, A)) #why its coming false
+
 
 
 
